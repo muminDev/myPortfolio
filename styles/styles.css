@@ -71,7 +71,7 @@ body {
 
 .fullname {
   font-family: 'Courgette', cursive;
-  font-size: 50px;
+  font-size: 40px;
   margin-bottom: 5px;
   font-style: normal;
   text-align: center;
@@ -112,7 +112,7 @@ body {
 
 .about-me {
   display: inline;
-  padding: 10px 20px;
+  padding: 8px 12px;
   border-radius: 10px;
   margin: 20px 0px;
   background-color: #111827;
@@ -150,10 +150,11 @@ body {
   width: 100%;
   height: auto;
   padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 .skills-box > .skills-title {
-  padding: 10px 20px;
+  padding: 6px 12px;
   border-radius: 10px;
   background-color: #1f2937;
 }
@@ -189,7 +190,8 @@ body {
 
 .title-experience {
   background-color: #111827;
-  padding: 10px 15px;
+  padding: 8px 12px;
+  margin-top: 5px;
   border-radius: 10px;  
 }
 
