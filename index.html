@@ -5,24 +5,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ 
   <!-- Google fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+ 
   <!-- Bootstrap CSS -->
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Custom CSS for dark/light mode -->
-  <link href="styles.css" rel="stylesheet">
+ 
+  <!-- Custom CSS for NavBar -->
+  <link href="styles/navbarStyle.css" rel="stylesheet">
+  
+  <!-- Custom CSS for Main Page -->
+  <link rel="stylesheet" href="styles/styles.css">
+  
+  <!-- Link for Icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+  
   <title>Juramirzaev.com</title>
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container my-custom-container">
-      <a class="navbar-brand" href="#">MJ</a>
+      <a class="navbar-brand" href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-house-door" viewBox="0 0 16 16">
+        <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4z"/>
+      </svg></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-          <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
-        </svg></span>
+        <span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+          </svg>
+        </span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
@@ -36,18 +51,95 @@
             <a class="nav-link" href="#contact">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contact">Download CV</a>
+            <a class="nav-link" href="documents/RESUME.pdf" download="">Download CV</a>
           </li>
           <li class="nav-item">
-            <label class="switch">
-              <input id="toggle" type="checkbox" title="switch">
-              <span class="slider round"></span>
-            </label>
+              <label class="switch">
+                <input id="toggle" type="checkbox" title="switch">
+                <span class="slider round"></span>
+              </label>
           </li>
         </ul>
       </div>
     </div>
   </nav>
+
+  <!-- Main page -->
+  <section>
+    <div class="first-page"> <!-- First page codes -->
+      <div class="left-part">
+        <h1 class="fullname">Muminjon Juramirzaev</h1>
+        <p>&#9673; <span class="front-end-developer">Front-End Developer</span> with a Background in Psychology</p>
+        <p>&#9673; Quick learner</p>
+        <div class="location">
+          <i class="fa-solid fa-location-dot"></i>
+          <p>Warsaw, Poland</p>
+        </div> 
+      </div>
+      <div class="right-part">
+        <img 
+          src="img/profile-img.jpg" 
+          alt="My profile picture on the first page"
+          class="profile-img">
+      </div>
+    </div>  
+    <div class="second-page"> <!-- Codes for second page-->
+      <h4 class="about-me">About me</h4>
+      <div class="section-second-page">
+        <div class="picture-on-about-page">
+          <img src="img/picture-on-about.jpg" 
+            alt="picture of me which is taken around mountains"
+            class="picture-on-about-page">
+        </div>
+        <div class="text-on-second-page">
+          <h3>Web Development with a Human Touch: My Story of Transformation</h3>
+          <p> In my journey, I earned a bachelor's degree in Psychology. However, I made a significant shift into the world of front-end development. With tools like HTML, CSS, and JavaScript, I craft digital experiences. It's a story of determination and passion reshaping my career, one line of code at a time.</p>
+          <p> I embarked on this transformative journey by teaching myself through platforms like Udemy, devouring tutorials on YouTube, and scouring the vast expanse of Google for resources. 
+            It wasn't an easy path; learning intricate tools like React, Git, and GitHub required dedication and countless hours of trial and error. But, through sheer determination and unwavering commitment, 
+            I managed to conquer the challenges and emerge as a self-taught front-end developer.</p>
+        </div>
+      </div>
+    </div>
+    <div class="skills-box"> <!--Codes for skills page-->
+      <h3 class="skills-title">Skills</h3>
+      <p>The skills, tools and technologies I am good at:</p>
+      <div class="skills-icons">
+        <div><img src="img-skills/html.png" alt="icon of HTML">HTML5</div>
+        <div><img src="img-skills/css.png" alt="icon of CSS">CSS</div>
+        <div><img src="img-skills/icon-javscript.png" alt="icon of JavaScript">JavaScript</div>
+        <div><img src="img-skills/icon-react.png" alt="icon of React">React</div>
+        <div><img src="img-skills/icon-git.png" alt="icon of Git">Git</div>
+        <div><img src="img-skills/icon-figma.png" alt="icon of figma platform">Figma</div>
+        <div><img src="img-skills/icon-sass.png" alt="icon of Sass">Sass &#47; Scss</div>
+      </div>
+    </div>
+    <div class="experience"> <!-- codes for experience page -->
+      <h3 class="title-experience">Experince</h3>
+      <p>Here is a quick summary of my most recent experiences:</p>
+      <div class="experience-boxes"></div>
+      <div class="experience-boxes"></div>
+      <div class="experience-boxes"></div>
+    </div>
+  </section>
+  <footer class="footer"> <!-- Codes for footer -->
+    <div class="contact-box">
+      <h5 class="get-in-touch">Get in touch</h5>
+      <p>Feel free to reach out to me if you're looking for a developer, have a query, or simply want to connect.</p>
+      <p class="email"><i class="fa-solid fa-envelope" style="color: #e6ebf5;"></i>juramirzaev.muminjon@gmail.com</p>
+      <p class="phone"><i class="fa-solid fa-phone" style="color: #e3e9f2;"></i>+48 697 554 306</p>
+      <p>You may also find me here</p>
+      <ul class="contact-links">
+        <li><a href="https://github.com/muminDev" ><i class="fa-brands fa-github" style="color: #edeff3;"></i></a></li>
+        <li><a href="https://t.me/online_vector"><i class="fa-brands fa-telegram" style="color: #f3f6fb;"></i></a></li>
+        <li><a href="https://wa.me/qr/DKXEXHOYDEMGH1"><i class="fa-brands fa-square-whatsapp" style="color: #f3f6fb;"></i></a></li>
+      </ul>
+    </div>
+    <div class="copyright-box">
+      <p> &copy; Copyright 2023 &#128187; Coded by Muminjon Juramirzaev </p>
+    </div>
+  </footer>
+
+  
 
   <!-- Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
