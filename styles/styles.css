@@ -8,6 +8,12 @@
     box-sizing: border-box;
   }
 
+
+  html {
+    scroll-behavior: smooth;
+    scroll-behavior: cubic-bezier(x1, y1, x2, y2); /* Example cubic-bezier easing function */
+  }
+
 body {
   margin: 0;
   font-family: 'Lexend Deca', sans-serif;
@@ -60,7 +66,7 @@ body {
   width: 100%;
   height: auto;
   display: flex;
-  padding: 180px 20px;
+  padding: 200px 20px;
   justify-content: center;
   align-items: center;
 }
@@ -112,9 +118,10 @@ body {
 
 .about-me {
   display: inline;
+  font-size: 18px;
   padding: 8px 12px;
   border-radius: 10px;
-  margin: 20px 0px;
+  margin: 10px 0px;
   background-color: #111827;
 }
 
@@ -133,7 +140,7 @@ body {
   border-radius: 10px;
   box-shadow: 3px 3px 5px #d1d5db;
   width: 320px;
-  height: 420px;
+  height: 380px;
   object-fit: cover;
 
 }
@@ -150,11 +157,12 @@ body {
   width: 100%;
   height: auto;
   padding-bottom: 10px;
-  padding-top: 10px;
+  padding-top: 40px;
 }
 
 .skills-box > .skills-title {
   padding: 6px 12px;
+  font-size: 18px;
   border-radius: 10px;
   background-color: #1f2937;
 }
@@ -190,13 +198,14 @@ body {
 
 .title-experience {
   background-color: #111827;
+  font-size: 18px;
   padding: 8px 12px;
-  margin-top: 5px;
+  margin-top: 10px;
   border-radius: 10px;  
 }
 
 .experience > p{
-  margin: 0px 0px 10px
+  margin: 8px 10px
 }
 
 .experience-boxes {
@@ -221,35 +230,31 @@ body {
   margin-right: 15px;
 }
 
-.email, .phone {
+.email, .phone, .text-contact {
   margin: 0px;
-  padding-bottom: 5px;
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 .get-in-touch {
   background-color: #1f2937;
   display: inline;
-  margin: 0px;
+  font-size: 18px;
+  margin: 10px;
   padding: 10px 15px;
   border-radius: 15px;
-}
-
-.get-in-touch > {
-  margin: 15px;
 }
 
 .contact-links {
   list-style-type: none;
   display: flex;
-  font-size: 25px;
   margin: 0px;
   padding: 0px;
 }
 
 .contact-links li {
   margin: 10px;
+  font-size: 28px;
 }
 
 .copyright-box {
@@ -291,8 +296,8 @@ body {
   padding: 5px 10px;
 }
 
-.picture-on-about-page {
-  width: 240px;
+.picture-on-about-page, .profile-img {
+  width: 180px;
   height: auto;  
   margin: 0px;
 }
