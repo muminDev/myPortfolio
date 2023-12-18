@@ -118,13 +118,14 @@ body {
   height: auto;
   padding-bottom: 10px;
   padding-top: 40px;
+  background-color: #1f2937;
 }
 
 .skills-box > .skills-title {
   padding: 6px 12px;
   font-size: 18px;
   border-radius: 10px;
-  background-color: #1f2937;
+  background-color: #111827;
 }
 
 .skills-icons {
@@ -144,6 +145,22 @@ body {
   margin: 12px 25px;
   width: auto;
   height: 48px;
+}
+
+/* Project page */
+.projects {
+  margin: 20px 0px;
+}
+
+.project-box {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 30px;
+}
+
+.project-picture {
+  height: 200px;
+  width: 380px;
 }
 
 /* Section for experience page */

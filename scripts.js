@@ -3,13 +3,16 @@
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener('click', function (e) {
     e.preventDefault();
-
-    document.querySelector(this.getAttribute('href')).scrollIntoView({
-      behavior: 'smooth',
-      block: 'start'
-    });
+    const targetElement = document.querySelector(this.getAttribute('href'));
+    if (targetElement) {
+      targetElement.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      });
+    }
   });
 });
+
 
 //submission contact info
 const scriptURL = 'https://script.google.com/macros/s/AKfycbzD3nxoa2BVMXkhMz9OUjNwAURzIbD76Odpp3d73vZ90Z-27w1Csdap02a3gppIykyIXg/exec'
