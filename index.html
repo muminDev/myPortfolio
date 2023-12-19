@@ -24,7 +24,6 @@
   <!-- Link for Icons -->
   <link rel="icon" type="image/x-icon" href="fav-icon/fav-icon.png">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
-
   
   <title>Juramirzaev.com</title>
 </head>
@@ -81,7 +80,7 @@
     <div class="second-page" id="about"> <!-- Codes for second page-->
       <h4 class="about-me" >About me</h4>
       <div class="section-second-page">
-        <div class="picture-on-about-page">
+        <div>
           <img src="img/picture-on-about.jpg" 
             alt="picture of me which is taken around mountains"
             class="picture-on-about-page">
@@ -124,10 +123,11 @@
           <p>Built an interactive web app using RAWG.io API, 
             allowing users to search and explore game information like descriptions, 
             ratings, and genres. Seamless UI for easy game discovery. Deployed on Vercel.com</p>
-            <div class="project-tools"><p>HTML</p><p>CSS</p><p>Bootstrap</p><p>JavaScript</p><p>Typescript</p><p>ReactJS</p><p>ChakraUi</p><p>RAWG.io</p><p>Vite</p>
-            </div>
-            <a class="project-link" href="https://game-discovery-hd9xz8cya-muminjons-projects.vercel.app/">Demo project</a>
-            <a class="project-link" href="https://github.com/muminDev/game-discovery-app">on GitHub</a>
+          <div class="project-tools">
+            <p>HTML</p><p>CSS</p><p>Bootstrap</p><p>JavaScript</p><p>Typescript</p><p>ReactJS</p><p>ChakraUi</p><p>RAWG.io</p><p>Vite</p>
+          </div>
+          <a class="project-link" href="https://game-discovery-hd9xz8cya-muminjons-projects.vercel.app/">Demo project</a>
+          <a class="project-link" href="https://github.com/muminDev/game-discovery-app">on GitHub</a>
         </div>
       </div>
       <div class="project-box">
@@ -137,10 +137,9 @@
           <p>The Rock, Paper, Scissors game is built using HTML, CSS, and JavaScript for implementing the game logic and interactions. 
             It provides an interactive experience for users to play the classic game against the 
             computer directly in their web browser. Deployed on Vercel.com</p>
-            <div class="project-tools"><p>HTML</p><p>CSS</p><p>JavaScript</p>
-            </div>
-            <a class="project-link" href="https://rock-paper-scissors-game-eight-hazel.vercel.app/">Demo project</a>
-            <a class="project-link" href="https://github.com/muminDev/rock-paper-scissors-game">on GitHub</a>
+          <div class="project-tools"><p>HTML</p><p>CSS</p><p>JavaScript</p></div>
+          <a class="project-link" href="https://rock-paper-scissors-game-eight-hazel.vercel.app/">Demo project</a>
+          <a class="project-link" href="https://github.com/muminDev/rock-paper-scissors-game">on GitHub</a>
         </div>
       </div>
     </div>
@@ -158,25 +157,25 @@
       <h5 class="get-in-touch">Get in touch</h5>
       <p>Feel free to reach out to me if you're looking for a developer, have a query, or simply want to connect.</p>
       <!-- Contact form -->
-        <form id="contactForm" name="submit-to-google-sheet">
-          <div class="form-group">
-            <input type="text" id="name" name="name" placeholder="Your name..." required>
-          </div>
-          <div class="form-group">
-            <input type="email" id="email" placeholder="Your email..." name="email" required>
-          </div>
-          <div class="form-group">
-            <textarea id="message" name="message" placeholder="message..." required></textarea>
-          </div>
-          <span id="msg"></span>
-          <div class="form-group">
-            <input type="submit" value="Submit">
-          </div>
-        </form>
+      <form id="contactForm" name="submit-to-google-sheet">
+        <div class="form-group">
+          <input type="text" id="name" name="name" placeholder="Your name..." required>
+        </div>
+        <div class="form-group">
+          <input type="email" id="email" placeholder="Your email..." name="email" required>
+        </div>
+        <div class="form-group">
+          <textarea id="message" name="message" placeholder="message..." required></textarea>
+        </div>
+        <span id="msg"></span>
+        <div class="form-group">
+          <input type="submit" value="Submit">
+        </div>
+      </form>
         
       <p class="email"><i class="fa-solid fa-envelope" style="color: #e6ebf5;"></i>muminjonDev@gmail.com</p>
       <p class="phone"><i class="fa-solid fa-phone" style="color: #e3e9f2;"></i>+48 697 554 306</p>
-      <p class="text-contact">You may also find me here</p>
+      <p>You may also find me here</p>
       <ul class="contact-links">
         <li><a href="https://github.com/muminDev" ><i class="fa-brands fa-github" style="color: #edeff3;"></i></a></li>
         <li><a href="https://t.me/online_vector"><i class="fa-brands fa-telegram" style="color: #f3f6fb;"></i></a></li>
@@ -188,12 +187,9 @@
     </div>
   </footer>
 
-  
-
-  <!-- Bootstrap JS -->
+  <!-- Script -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <!-- custom script for dark/light mode -->
   <script src="scripts.js"></script>
   <script src="https://kit.fontawesome.com/600cb7c545.js" crossorigin="anonymous"></script>
 </body>
