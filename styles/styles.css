@@ -35,6 +35,10 @@ body {
   margin-right: 50px;
 }
 
+.left-part p {
+  margin-bottom: 5px;
+}
+
 .fullname {
   font-family: 'Courgette', cursive;
   font-size: 40px;
@@ -193,7 +197,7 @@ a.project-link {
 }
 
 a.project-link:hover {
-  color: #34a834;
+  color: #247524;
 }
 
 /* Section for experience page */
