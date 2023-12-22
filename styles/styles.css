@@ -276,7 +276,13 @@ input[type="submit"]:hover {
 .header {
   padding: 0px;
   margin: 10px;
-}    
+}  
+
+.right-part {
+  order: -1;
+  margin-bottom: 30px;
+}
+
 .first-page,
 .section-second-page,
 .project-box,
@@ -284,7 +290,7 @@ input[type="submit"]:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 15px;
+  padding: 50px 20px;
 }
 
 .list-of-header{
@@ -325,9 +331,6 @@ input[type="submit"]:hover {
   grid-template-columns: auto auto auto;
 }
 
-.right-part {
-  order: -1;
-}
 .first-page,
 .projects,
 .second-page, 
