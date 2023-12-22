@@ -283,14 +283,19 @@ input[type="submit"]:hover {
   margin-bottom: 30px;
 }
 
-.first-page,
+.first-page {
+  padding: 50px 20px;
+  flex-direction: column;
+}
+
 .section-second-page,
+.second-page,
 .project-box,
 .contact-box {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 50px 20px;
+  padding: 20px 10px;
 }
 
 .list-of-header{
@@ -329,13 +334,6 @@ input[type="submit"]:hover {
 .skills-icons {
   display: grid;
   grid-template-columns: auto auto auto;
-}
-
-.first-page,
-.projects,
-.second-page, 
-.contact-box{
-  padding: 40px 15px;
 }
 }
 
